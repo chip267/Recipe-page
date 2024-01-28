@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Young Serif", "Outfit", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  background-color: hsl(30, 54%, 90%);
+  font-size: 16px;
+}
+.container {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 25px;
+  overflow: hidden;
+  padding: 40px;
+  max-width: 800px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 25px;
+}
+.container-header h2 {
+  font-size: 42px;
+  font-weight: 400;
+  font-family: "Young Serif";
+  color: hsl(24, 5%, 18%);
+  margin-bottom: 18px;
+}
+.container-header p {
+  font-size: 16px;
+  font-family: "Outfit";
+  color: hsl(30, 10%, 34%);
+  font-weight: 500;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+.list-container {
+  background-color: hsl(330, 100%, 98%);
+  padding-top: 22px;
+  padding-left: 22px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+p.title-list {
+  font-size: 22px;
+  font-family: "Outfit";
+  font-weight: 700;
+  color: hsl(332, 51%, 32%);
+}
+.list li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+.list {
+  font-size: 16px;
+  font-family: "Outfit";
+  color: hsl(30, 10%, 34%);
+  font-weight: 500;
+}
+.list li {
+  margin-bottom: 12px;
+  margin-left: 21px;
+}
+.ingredients h2 {
+  font-family: "Young Serif";
+  font-weight: 400;
+  color: hsl(14, 45%, 36%);
+  margin-bottom: 12px;
+}
+.list-ingredients {
+  font-size: 16px;
+  font-family: "Outfit";
+  color: hsl(30, 10%, 34%);
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+.list-ingredients li {
+  margin-bottom: 12px;
+  margin-left: 21px;
+}
+
+.instructions h2 {
+  border-top: 1px solid hsl(30, 18%, 87%);
+  margin-top: 30px;
+  padding-top: 20px;
+  font-family: "Young Serif";
+  font-weight: 400;
+  color: hsl(14, 45%, 36%);
+  margin-bottom: 12px;
+}
+.instructions {
+  font-size: 16px;
+  font-family: "Outfit";
+  color: hsl(30, 10%, 34%);
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+.instructions li {
+  margin-bottom: 12px;
+  margin-left: 21px;
+  line-height: 1.6;
+}
+.instructions li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+.nutrions h2 {
+  border-top: 1px solid hsl(30, 18%, 87%);
+  font-family: "Young Serif";
+  font-weight: 400;
+  color: hsl(14, 45%, 36%);
+  margin-bottom: 12px;
+  margin-top: 30px;
+  padding-top: 20px;
+}
+.nutrions p {
+  font-size: 16px;
+  font-family: "Outfit";
+  color: hsl(30, 10%, 34%);
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+table {
+  font-size: 16px;
+  font-family: "Outfit";
+  color: hsl(30, 10%, 34%);
+  font-weight: 500;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td {
+  padding: 15px;
+  padding-left: 25px;
+  text-align: left;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+span {
+  font-weight: 700;
+  color: hsl(14, 45%, 36%);
+}
